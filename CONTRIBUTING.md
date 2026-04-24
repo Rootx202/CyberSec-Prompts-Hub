@@ -57,7 +57,7 @@ We welcome contributions from the cybersecurity community! Here's how you can he
 description: "Brief description of what this prompt does"
 tags: [tag1, tag2, tag3]
 target_models: [GPT-4, Claude, Gemini]
-author: "RootX | Bashar Alkhamousi | بشار الخموسي"
+author: "RootX | Bashar AL-khamousi | بشار الخموسي"
 ---
 
 ## Prompt Title
@@ -101,7 +101,7 @@ Detailed explanation of the prompt's purpose and use case.
 - Local LLMs
 
 ## Author
-- Name: Bashar alkhamousi | بشار الخموسي
+- Name: Bashar AL-khamousi | بشار الخموسي
 - GitHub: Rootx202
 ```
 
@@ -183,6 +183,6 @@ By participating in this project, you agree to abide by our [Code of Conduct](./
 
 **Thank you for contributing! | شكراً لمساهمتك!**
 
-**Project Maintainer: RootX | Bashar alkhamousi | بشار الخموسي**
+**Project Maintainer: RootX | Bashar AL-khamousi | بشار الخموسي**
 
 </div>
