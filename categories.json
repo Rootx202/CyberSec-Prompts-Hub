@@ -1,0 +1,673 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2024-01-01",
+  "total_prompts": 500,
+  "categories": [
+    {
+      "id": "pentesting",
+      "name": {
+        "en": "Penetration Testing",
+        "ar": "اختبار الاختراق"
+      },
+      "description": {
+        "en": "Comprehensive prompts for penetration testing activities including network scanning, vulnerability assessment, web application testing, privilege escalation, and post-exploitation",
+        "ar": "مطالب شاملة لأنشطة اختبار الاختراق بما في ذلك فحص الشبكات وتقييم الثغرات واختبار تطبيقات الويب وتصعيد الامتيازات وما بعد الاستغلال"
+      },
+      "prompt_count": 80,
+      "subcategories": [
+        {
+          "id": "network-scanning",
+          "name": {
+            "en": "Network Scanning",
+            "ar": "فحص الشبكات"
+          },
+          "description": {
+            "en": "Network discovery, port scanning, service enumeration, and topology mapping",
+            "ar": "اكتشاف الشبكة وفحص المنافذ وتعداد الخدمات وتخطيط الطوبولوجيا"
+          },
+          "prompt_count": 16
+        },
+        {
+          "id": "vulnerability-assessment",
+          "name": {
+            "en": "Vulnerability Assessment",
+            "ar": "تقييم الثغرات الأمنية"
+          },
+          "description": {
+            "en": "Vulnerability scanning, CVE analysis, and risk assessment",
+            "ar": "فحص الثغرات وتحليل CVE وتقييم المخاطر"
+          },
+          "prompt_count": 16
+        },
+        {
+          "id": "web-application",
+          "name": {
+            "en": "Web Application Testing",
+            "ar": "اختبار تطبيقات الويب"
+          },
+          "description": {
+            "en": "OWASP Top 10 testing, API security, authentication testing",
+            "ar": "اختبار OWASP Top 10 وأمن واجهات برمجة التطبيقات واختبار المصادقة"
+          },
+          "prompt_count": 16
+        },
+        {
+          "id": "privilege-escalation",
+          "name": {
+            "en": "Privilege Escalation",
+            "ar": "تصعيد الامتيازات"
+          },
+          "description": {
+            "en": "Local and domain privilege escalation techniques and detection",
+            "ar": "تقنيات اكتشاف وتصعيد الامتيازات المحلية وعلى مستوى النطاق"
+          },
+          "prompt_count": 16
+        },
+        {
+          "id": "post-exploitation",
+          "name": {
+            "en": "Post-Exploitation",
+            "ar": "ما بعد الاستغلال"
+          },
+          "description": {
+            "en": "Data exfiltration, persistence, and cleanup techniques",
+            "ar": "تقنيات استخراج البيانات والثبات والتنظيف"
+          },
+          "prompt_count": 16
+        }
+      ]
+    },
+    {
+      "id": "red-team",
+      "name": {
+        "en": "Red Team Operations",
+        "ar": "عمليات الفريق الأحمر"
+      },
+      "description": {
+        "en": "Adversary simulation, social engineering, C2 operations, evasion techniques, and lateral movement",
+        "ar": "محاكاة الخصوم والهندسة الاجتماعية وعمليات C2 وتقنيات التهرب والحركة الجانبية"
+      },
+      "prompt_count": 70,
+      "subcategories": [
+        {
+          "id": "social-engineering",
+          "name": {
+            "en": "Social Engineering",
+            "ar": "الهندسة الاجتماعية"
+          },
+          "description": {
+            "en": "Phishing, pretexting, baiting, and awareness training",
+            "ar": "التصيد الاحتيالي والذرائع والإغراء وتدريب الوعي"
+          },
+          "prompt_count": 14
+        },
+        {
+          "id": "command-control",
+          "name": {
+            "en": "Command and Control",
+            "ar": "القيادة والتحكم"
+          },
+          "description": {
+            "en": "C2 frameworks, beacon configuration, and traffic evasion",
+            "ar": "أطر C2 وتكوين المنارات وتجنب حركة المرور"
+          },
+          "prompt_count": 14
+        },
+        {
+          "id": "evasion-techniques",
+          "name": {
+            "en": "Evasion Techniques",
+            "ar": "تقنيات التهرب"
+          },
+          "description": {
+            "en": "AV/EDR evasion, obfuscation, and anti-analysis",
+            "ar": "تجنب AV/EDR والتشويش ومكافحة التحليل"
+          },
+          "prompt_count": 14
+        },
+        {
+          "id": "lateral-movement",
+          "name": {
+            "en": "Lateral Movement",
+            "ar": "الحركة الجانبية"
+          },
+          "description": {
+            "en": "Network pivoting, credential harvesting, and remote execution",
+            "ar": "الارتكاز على الشبكة وجمع بيانات الاعتماد والتنفيذ عن بعد"
+          },
+          "prompt_count": 14
+        },
+        {
+          "id": "persistence",
+          "name": {
+            "en": "Persistence",
+            "ar": "الثبات"
+          },
+          "description": {
+            "en": "Persistence mechanisms and detection strategies",
+            "ar": "آليات الثبات واستراتيجيات الكشف"
+          },
+          "prompt_count": 14
+        }
+      ]
+    },
+    {
+      "id": "blue-team",
+      "name": {
+        "en": "Blue Team Defense",
+        "ar": "دفاع الفريق الأزرق"
+      },
+      "description": {
+        "en": "Threat detection, incident response, log analysis, malware analysis, and SOC operations",
+        "ar": "اكتشاف التهديدات والاستجابة للحوادث وتحليل السجلات وتحليل البرمجيات الخبيثة وعمليات SOC"
+      },
+      "prompt_count": 80,
+      "subcategories": [
+        {
+          "id": "threat-detection",
+          "name": {
+            "en": "Threat Detection",
+            "ar": "اكتشاف التهديدات"
+          },
+          "description": {
+            "en": "SIEM rules, threat hunting, and anomaly detection",
+            "ar": "قواعد SIEM والبحث عن التهديدات واكتشاف الحالات الشاذة"
+          },
+          "prompt_count": 16
+        },
+        {
+          "id": "incident-response",
+          "name": {
+            "en": "Incident Response",
+            "ar": "الاستجابة للحوادث"
+          },
+          "description": {
+            "en": "IR playbooks, containment strategies, and forensics",
+            "ar": "أدلة الاستجابة للحوادث واستراتيجيات الاحتواء والطب الشرعي"
+          },
+          "prompt_count": 16
+        },
+        {
+          "id": "log-analysis",
+          "name": {
+            "en": "Log Analysis",
+            "ar": "تحليل السجلات"
+          },
+          "description": {
+            "en": "Security log parsing, correlation, and alerting",
+            "ar": "تحليل سجلات الأمان والربط والتنبيه"
+          },
+          "prompt_count": 16
+        },
+        {
+          "id": "malware-analysis",
+          "name": {
+            "en": "Malware Analysis",
+            "ar": "تحليل البرمجيات الخبيثة"
+          },
+          "description": {
+            "en": "Static and dynamic malware analysis techniques",
+            "ar": "تقنيات تحليل البرمجيات الخبيثة الثابتة والديناميكية"
+          },
+          "prompt_count": 16
+        },
+        {
+          "id": "soc-operations",
+          "name": {
+            "en": "SOC Operations",
+            "ar": "عمليات مركز عمليات الأمن"
+          },
+          "description": {
+            "en": "SOC workflows, triage, and escalation procedures",
+            "ar": "سير عمل SOC والفرز وإجراءات التصعيد"
+          },
+          "prompt_count": 16
+        }
+      ]
+    },
+    {
+      "id": "ai-security",
+      "name": {
+        "en": "AI Security",
+        "ar": "أمن الذكاء الاصطناعي"
+      },
+      "description": {
+        "en": "Prompt injection, model evasion, data poisoning, adversarial attacks, and AI red teaming",
+        "ar": "حقن المطالب وتجنب النموذج وتسميم البيانات والهجمات العدائية واختبار أمن الذكاء الاصطناعي"
+      },
+      "prompt_count": 50,
+      "subcategories": [
+        {
+          "id": "prompt-injection",
+          "name": {
+            "en": "Prompt Injection",
+            "ar": "حقن المطالب"
+          },
+          "description": {
+            "en": "Direct and indirect prompt injection attacks and defenses",
+            "ar": "هجمات حقن المطالب المباشرة وغير المباشرة ودفاعاتها"
+          },
+          "prompt_count": 10
+        },
+        {
+          "id": "model-evasion",
+          "name": {
+            "en": "Model Evasion",
+            "ar": "تجنب النموذج"
+          },
+          "description": {
+            "en": "Techniques to bypass ML model security measures",
+            "ar": "تقنيات لتجاوز تدابير أمن نماذج التعلم الآلي"
+          },
+          "prompt_count": 10
+        },
+        {
+          "id": "data-poisoning",
+          "name": {
+            "en": "Data Poisoning",
+            "ar": "تسميم البيانات"
+          },
+          "description": {
+            "en": "Training data manipulation and detection",
+            "ar": "التلاعب ببيانات التدريب والكشف عنها"
+          },
+          "prompt_count": 10
+        },
+        {
+          "id": "adversarial-attacks",
+          "name": {
+            "en": "Adversarial Attacks",
+            "ar": "الهجمات العدائية"
+          },
+          "description": {
+            "en": "Adversarial examples and robustness testing",
+            "ar": "الأمثلة العدائية واختبار المتانة"
+          },
+          "prompt_count": 10
+        },
+        {
+          "id": "ai-red-teaming",
+          "name": {
+            "en": "AI Red Teaming",
+            "ar": "اختبار أمن الذكاء الاصطناعي"
+          },
+          "description": {
+            "en": "AI system security assessment methodologies",
+            "ar": "منهجيات تقييم أمن أنظمة الذكاء الاصطناعي"
+          },
+          "prompt_count": 10
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "name": {
+        "en": "Code Review",
+        "ar": "مراجعة الكود"
+      },
+      "description": {
+        "en": "Secure coding practices, code audit, vulnerability detection, dependency analysis, and secrets detection",
+        "ar": "ممارسات البرمجة الآمنة وتدقيق الكود واكتشاف الثغرات وتحليل التبعيات واكتشاف الأسرار"
+      },
+      "prompt_count": 50,
+      "subcategories": [
+        {
+          "id": "secure-coding",
+          "name": {
+            "en": "Secure Coding",
+            "ar": "البرمجة الآمنة"
+          },
+          "description": {
+            "en": "Secure coding best practices and guidelines",
+            "ar": "أفضل ممارسات وإرشادات البرمجة الآمنة"
+          },
+          "prompt_count": 10
+        },
+        {
+          "id": "code-audit",
+          "name": {
+            "en": "Code Audit",
+            "ar": "تدقيق الكود"
+          },
+          "description": {
+            "en": "Manual and automated code review techniques",
+            "ar": "تقنيات مراجعة الكود اليدوية والآلية"
+          },
+          "prompt_count": 10
+        },
+        {
+          "id": "vulnerability-detection",
+          "name": {
+            "en": "Vulnerability Detection",
+            "ar": "اكتشاف الثغرات"
+          },
+          "description": {
+            "en": "Identifying and classifying code vulnerabilities",
+            "ar": "تحديد وتصنيف ثغرات الكود"
+          },
+          "prompt_count": 10
+        },
+        {
+          "id": "dependency-analysis",
+          "name": {
+            "en": "Dependency Analysis",
+            "ar": "تحليل التبعيات"
+          },
+          "description": {
+            "en": "Third-party library security and supply chain risks",
+            "ar": "أمن مكتبات الطرف الثالث ومخاطر سلسلة التوريد"
+          },
+          "prompt_count": 10
+        },
+        {
+          "id": "secrets-detection",
+          "name": {
+            "en": "Secrets Detection",
+            "ar": "اكتشاف الأسرار"
+          },
+          "description": {
+            "en": "Finding hardcoded credentials and sensitive data",
+            "ar": "العثور على بيانات الاعتماد المشفرة والبيانات الحساسة"
+          },
+          "prompt_count": 10
+        }
+      ]
+    },
+    {
+      "id": "osint",
+      "name": {
+        "en": "OSINT",
+        "ar": "الاستخبارات مفتوحة المصدر"
+      },
+      "description": {
+        "en": "Social media intelligence, reconnaissance, dark web monitoring, threat intelligence, and identity intelligence",
+        "ar": "استخبارات وسائل التواصل الاجتماعي والاستطلاع ومراقبة الويب المظلم واستخبارات التهديدات واستخبارات الهوية"
+      },
+      "prompt_count": 60,
+      "subcategories": [
+        {
+          "id": "social-media",
+          "name": {
+            "en": "Social Media Intelligence",
+            "ar": "استخبارات وسائل التواصل الاجتماعي"
+          },
+          "description": {
+            "en": "Social media reconnaissance and analysis",
+            "ar": "استطلاع وتحليل وسائل التواصل الاجتماعي"
+          },
+          "prompt_count": 12
+        },
+        {
+          "id": "reconnaissance",
+          "name": {
+            "en": "Reconnaissance",
+            "ar": "الاستطلاع"
+          },
+          "description": {
+            "en": "Target research and information gathering",
+            "ar": "البحث عن الأهداف وجمع المعلومات"
+          },
+          "prompt_count": 12
+        },
+        {
+          "id": "dark-web",
+          "name": {
+            "en": "Dark Web Monitoring",
+            "ar": "مراقبة الويب المظلم"
+          },
+          "description": {
+            "en": "Dark web threat monitoring and intelligence",
+            "ar": "مراقبة تهديدات الويب المظلم والاستخبارات"
+          },
+          "prompt_count": 12
+        },
+        {
+          "id": "threat-intelligence",
+          "name": {
+            "en": "Threat Intelligence",
+            "ar": "استخبارات التهديدات"
+          },
+          "description": {
+            "en": "Threat actor tracking and IOC analysis",
+            "ar": "تتبع الجهات الفاعلة المهددة وتحليل IOC"
+          },
+          "prompt_count": 12
+        },
+        {
+          "id": "identity-intelligence",
+          "name": {
+            "en": "Identity Intelligence",
+            "ar": "استخبارات الهوية"
+          },
+          "description": {
+            "en": "Identity verification and credential monitoring",
+            "ar": "التحقق من الهوية ومراقبة بيانات الاعتماد"
+          },
+          "prompt_count": 12
+        }
+      ]
+    },
+    {
+      "id": "compliance",
+      "name": {
+        "en": "Compliance",
+        "ar": "الامتثال"
+      },
+      "description": {
+        "en": "NIST framework, GDPR compliance, PCI-DSS, HIPAA, and ISO 27001",
+        "ar": "إطار NIST والامتثال للائحة الأوروبية لحماية البيانات و PCI-DSS و HIPAA و ISO 27001"
+      },
+      "prompt_count": 40,
+      "subcategories": [
+        {
+          "id": "nist-framework",
+          "name": {
+            "en": "NIST Framework",
+            "ar": "إطار NIST"
+          },
+          "description": {
+            "en": "NIST Cybersecurity Framework implementation",
+            "ar": "تنفيذ إطار NIST للأمن السيبراني"
+          },
+          "prompt_count": 8
+        },
+        {
+          "id": "gdpr-compliance",
+          "name": {
+            "en": "GDPR Compliance",
+            "ar": "الامتثال للائحة الأوروبية لحماية البيانات"
+          },
+          "description": {
+            "en": "GDPR requirements and implementation",
+            "ar": "متطلبات وتنفيذ اللائحة الأوروبية لحماية البيانات"
+          },
+          "prompt_count": 8
+        },
+        {
+          "id": "pci-dss",
+          "name": {
+            "en": "PCI-DSS",
+            "ar": "PCI-DSS"
+          },
+          "description": {
+            "en": "Payment Card Industry compliance requirements",
+            "ar": "متطلبات الامتثال لصناعة بطاقات الدفع"
+          },
+          "prompt_count": 8
+        },
+        {
+          "id": "hipaa",
+          "name": {
+            "en": "HIPAA",
+            "ar": "HIPAA"
+          },
+          "description": {
+            "en": "Healthcare data protection compliance",
+            "ar": "الامتثال لحماية بيانات الرعاية الصحية"
+          },
+          "prompt_count": 8
+        },
+        {
+          "id": "iso-27001",
+          "name": {
+            "en": "ISO 27001",
+            "ar": "ISO 27001"
+          },
+          "description": {
+            "en": "Information security management system standards",
+            "ar": "معايير نظام إدارة أمن المعلومات"
+          },
+          "prompt_count": 8
+        }
+      ]
+    },
+    {
+      "id": "reporting",
+      "name": {
+        "en": "Reporting",
+        "ar": "التقارير"
+      },
+      "description": {
+        "en": "Penetration test reports, incident reports, executive summaries, technical documentation, and audit reports",
+        "ar": "تقارير اختبار الاختراق وتقارير الحوادث والملخصات التنفيذية والتوثيق الفني وتقارير التدقيق"
+      },
+      "prompt_count": 40,
+      "subcategories": [
+        {
+          "id": "penetration-reports",
+          "name": {
+            "en": "Penetration Test Reports",
+            "ar": "تقارير اختبار الاختراق"
+          },
+          "description": {
+            "en": "Professional penetration testing report templates",
+            "ar": "قوالب تقارير اختبار الاختراق المهنية"
+          },
+          "prompt_count": 8
+        },
+        {
+          "id": "incident-reports",
+          "name": {
+            "en": "Incident Reports",
+            "ar": "تقارير الحوادث"
+          },
+          "description": {
+            "en": "Security incident documentation templates",
+            "ar": "قوالب توثيق حوادث الأمن"
+          },
+          "prompt_count": 8
+        },
+        {
+          "id": "executive-summary",
+          "name": {
+            "en": "Executive Summary",
+            "ar": "الملخص التنفيذي"
+          },
+          "description": {
+            "en": "Executive-level security summaries",
+            "ar": "ملخصات أمنية على المستوى التنفيذي"
+          },
+          "prompt_count": 8
+        },
+        {
+          "id": "technical-documentation",
+          "name": {
+            "en": "Technical Documentation",
+            "ar": "التوثيق الفني"
+          },
+          "description": {
+            "en": "Technical security documentation templates",
+            "ar": "قوالب توثيق الأمن الفني"
+          },
+          "prompt_count": 8
+        },
+        {
+          "id": "audit-reports",
+          "name": {
+            "en": "Audit Reports",
+            "ar": "تقارير التدقيق"
+          },
+          "description": {
+            "en": "Security audit report templates",
+            "ar": "قوالب تقارير تدقيق الأمن"
+          },
+          "prompt_count": 8
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "name": {
+        "en": "Education",
+        "ar": "التعليم"
+      },
+      "description": {
+        "en": "Security awareness, training materials, certification prep, lab exercises, and threat modeling",
+        "ar": "الوعي الأمني ومواد التدريب والتحضير للشهادات وتمارين المختبرات ونمذجة التهديدات"
+      },
+      "prompt_count": 30,
+      "subcategories": [
+        {
+          "id": "security-awareness",
+          "name": {
+            "en": "Security Awareness",
+            "ar": "الوعي الأمني"
+          },
+          "description": {
+            "en": "Employee security awareness training content",
+            "ar": "محتوى تدريب الوعي الأمني للموظفين"
+          },
+          "prompt_count": 6
+        },
+        {
+          "id": "training-materials",
+          "name": {
+            "en": "Training Materials",
+            "ar": "مواد التدريب"
+          },
+          "description": {
+            "en": "Cybersecurity training course content",
+            "ar": "محتوى دورات تدريب الأمن السيبراني"
+          },
+          "prompt_count": 6
+        },
+        {
+          "id": "certification-prep",
+          "name": {
+            "en": "Certification Prep",
+            "ar": "التحضير للشهادات"
+          },
+          "description": {
+            "en": "Certification exam preparation materials",
+            "ar": "مواد التحضير لامتحانات الشهادات"
+          },
+          "prompt_count": 6
+        },
+        {
+          "id": "labs-exercises",
+          "name": {
+            "en": "Lab Exercises",
+            "ar": "تمارين المختبرات"
+          },
+          "description": {
+            "en": "Hands-on cybersecurity lab exercises",
+            "ar": "تمارين مختبرات الأمن السيبراني العملية"
+          },
+          "prompt_count": 6
+        },
+        {
+          "id": "threat-modeling",
+          "name": {
+            "en": "Threat Modeling",
+            "ar": "نمذجة التهديدات"
+          },
+          "description": {
+            "en": "Threat modeling frameworks and methodologies",
+            "ar": "أطر ومنهجيات نمذجة التهديدات"
+          },
+          "prompt_count": 6
+        }
+      ]
+    }
+  ]
+}
