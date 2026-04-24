@@ -27,7 +27,7 @@ We welcome contributions from the cybersecurity community! Here's how you can he
 
 1. **Fork the Repository**
    ```bash
-   git clone https://github.com/your-username/CyberSec-Prompts-Hub.git
+   git clone https://github.com/Rootx202/CyberSec-Prompts-Hub.git
    ```
 
 2. **Create a Branch**
@@ -57,7 +57,7 @@ We welcome contributions from the cybersecurity community! Here's how you can he
 description: "Brief description of what this prompt does"
 tags: [tag1, tag2, tag3]
 target_models: [GPT-4, Claude, Gemini]
-author: "Your Name or GitHub Username"
+author: "RootX | Bashar Alkhamousi | بشار الخموسي"
 ---
 
 ## Prompt Title
@@ -101,8 +101,8 @@ Detailed explanation of the prompt's purpose and use case.
 - Local LLMs
 
 ## Author
-- Name: [Your Name]
-- GitHub: [Your GitHub]
+- Name: Bashar alkhamousi | بشار الخموسي
+- GitHub: Rootx202
 ```
 
 #### Quality Guidelines
@@ -136,7 +136,7 @@ Detailed explanation of the prompt's purpose and use case.
 
 1. **تفريع المستودع**
    ```bash
-   git clone https://github.com/your-username/CyberSec-Prompts-Hub.git
+   git clone https://github.com/Rootx202/CyberSec-Prompts-Hub.git
    ```
 
 2. **إنشاء فرع**
@@ -182,5 +182,7 @@ By participating in this project, you agree to abide by our [Code of Conduct](./
 <div align="center">
 
 **Thank you for contributing! | شكراً لمساهمتك!**
+
+**Project Maintainer: RootX | Bashar alkhamousi | بشار الخموسي**
 
 </div>

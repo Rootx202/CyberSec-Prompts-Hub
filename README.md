@@ -99,7 +99,7 @@ CyberSec-Prompts-Hub/
 ### 🚀 Quick Start
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/CyberSec-Prompts-Hub.git
+git clone https://github.com/Rootx202/CyberSec-Prompts-Hub.git
 ```
 
 2. Browse prompts by category in the `prompts/` directory
@@ -125,6 +125,11 @@ We welcome contributions! Please read our [Contributing Guidelines](./CONTRIBUTI
 
 ### 📜 License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+### 👤 Project Identity
+Created and maintained by **RootX**
+
+Founder: **Bashar alkhamousi | بشار الخموسي**
 
 ---
 
@@ -182,8 +187,8 @@ git clone https://github.com/Rootx202/CyberSec-Prompts-Hub.git
 
 **إذا وجدت هذا المستودع مفيداً، يرجى النظر في إعطائه نجمة!**
 
-Made with ❤️ RootX202
+Made with ❤️ RootX
 
-صُنع بـ ❤️ RootX202
+صُنع بـ ❤️ RootX
 
 </div>
